@@ -5,7 +5,7 @@
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .header-search {
-        padding: 15px 0px;
+        padding: 15px 0;
     }
 }
 
@@ -22,7 +22,7 @@
     }
 
     .mg {
-        margin: 0px 0px;
+        margin: 0 0;
     }
 
     .menu-area-main {
@@ -31,19 +31,19 @@
     }
 
     .megamenu > .row [class*="col-"] {
-        padding: 0px;
+        padding: 0;
     }
 
     .menu-area-main .megamenu .men-cat {
-        padding: 0px 15px;
+        padding: 0 15px;
     }
 
     .menu-area-main .megamenu .women-cat {
-        padding: 0px 15px;
+        padding: 0 15px;
     }
 
     .menu-area-main .megamenu .el-cat {
-        padding: 0px 15px;
+        padding: 0 15px;
     }
 
     .mean-container .mean-nav ul li a.mean-expand {
@@ -56,12 +56,12 @@
 
     .cart-box {
         display: inline-block;
-        margin: 0px 30px;
+        margin: 0 30px;
     }
 
     .wish-box {
         float: none;
-        margin: 0px 30px;
+        margin: 0 30px;
         display: inline-block;
     }
 
@@ -74,7 +74,7 @@
     }
 
     .mean-container .mean-nav ul li ol {
-        padding: 0px;
+        padding: 0;
     }
 
     .mean-container .mean-nav ul li a {
@@ -92,11 +92,11 @@
     }
 
     .header-search {
-        padding: 15px 0px;
+        padding: 15px 0;
     }
 
     #collapseFilter.d-md-block {
-        padding: 30px 0px;
+        padding: 30px 0;
     }
 }
 
@@ -109,19 +109,19 @@
     }
 
     .megamenu > .row [class*="col-"] {
-        padding: 0px;
+        padding: 0;
     }
 
     .menu-area-main .megamenu .men-cat {
-        padding: 0px 15px;
+        padding: 0 15px;
     }
 
     .menu-area-main .megamenu .women-cat {
-        padding: 0px 15px;
+        padding: 0 15px;
     }
 
     .menu-area-main .megamenu .el-cat {
-        padding: 0px 15px;
+        padding: 0 15px;
     }
 
     .mean-container .mean-nav ul li a {
@@ -135,7 +135,7 @@
     }
 
     .mean-container .sub-full.megamenu-categories ol li a {
-        padding: 5px 0px;
+        padding: 5px 0;
         text-transform: capitalize;
         width: 100%;
     }
@@ -264,11 +264,11 @@
     }
 
     .more_bt a {
-        padding: 7px 0px;
+        padding: 7px 0;
     }
 
     .contact_bt a {
-        padding: 7px 0px;
+        padding: 7px 0;
     }
 
     .image_1 {
@@ -292,7 +292,7 @@
     }
 
     .main {
-        margin: 40px 0px 0px 5px;
+        margin: 40px 0 0 5px;
     }
 
     .middle {
@@ -305,7 +305,7 @@
 
     .knowledge_section {
         background-size: cover;
-        padding: 100px 0px;
+        padding: 100px 0;
     }
 
     .left_main {
@@ -325,7 +325,7 @@
     }
 
     .getquote_bt a {
-        margin-top: 0px;
+        margin-top: 0;
     }
 
     .contact_section {
@@ -392,6 +392,10 @@
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
+    .images_1 {
+        display: none;
+    }
+
     #main_slider a.carousel-control-prev {
         position: absolute;
         left: 175px;
@@ -451,11 +455,11 @@
     }
 
     .more_bt a {
-        padding: 7px 0px;
+        padding: 7px 0;
     }
 
     .contact_bt a {
-        padding: 7px 0px;
+        padding: 7px 0;
     }
 
     .image_1 {
@@ -479,7 +483,7 @@
     }
 
     .main {
-        margin: 40px 0px 0px 5px;
+        margin: 40px 0 0 5px;
     }
 
     .middle {
@@ -492,7 +496,7 @@
 
     .knowledge_section {
         background-size: cover;
-        padding: 90px 0px;
+        padding: 90px 0;
     }
 
     .left_main {
@@ -512,7 +516,7 @@
     }
 
     .getquote_bt a {
-        margin-top: 0px;
+        margin-top: 0;
     }
 
     .contact_section {
@@ -579,6 +583,10 @@
 }
 
 @media (max-width: 575px) {
+    .images_1 {
+        display: none;
+    }
+
     #main_slider a.carousel-control-prev {
         position: absolute;
         left: 175px;
@@ -638,11 +646,11 @@
     }
 
     .more_bt a {
-        padding: 7px 0px;
+        padding: 7px 0;
     }
 
     .contact_bt a {
-        padding: 7px 0px;
+        padding: 7px 0;
     }
 
     .image_1 {
@@ -666,7 +674,7 @@
     }
 
     .main {
-        margin: 40px 0px 0px 5px;
+        margin: 40px 0 0 5px;
     }
 
     .middle {
@@ -679,7 +687,7 @@
 
     .knowledge_section {
         background-size: cover;
-        padding: 90px 0px;
+        padding: 90px 0;
     }
 
     .left_main {
@@ -699,7 +707,7 @@
     }
 
     .getquote_bt a {
-        margin-top: 0px;
+        margin-top: 0;
     }
 
     .daily_text_1 {
