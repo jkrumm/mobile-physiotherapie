@@ -11,17 +11,7 @@
 
 /*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
 
-@import url(animate.min.css);
 @import url(normalize.css);
-@import url(icomoon.css);
-@import url(css/font-awesome.min.css);
-@import url(meanmenu.css);
-@import url(owl.carousel.min.css);
-@import url(swiper.min.css);
-@import url(slick.css);
-@import url(jquery.fancybox.min.css);
-@import url(jquery-ui.css);
-@import url(nice-select.css);
 
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
 
@@ -37,8 +27,8 @@ html {
 body {
     color: #666666;
     font-size: 14px;
-    font-family: Poppins;
-    line-height: 1.80857;
+    font-family: Poppins, serif;
+    /*line-height: 1.80857;*/
     font-weight: normal;
     overflow-x: hidden;
 }
@@ -186,6 +176,10 @@ img {
     border: none !important;
 }
 
+.navbar-collapse {
+    flex-grow: unset !important;
+}
+
 .badge {
     font-weight: 500;
 }
@@ -215,11 +209,11 @@ button {
 .header_section {
     width: 100%;
     float: left;
-    background-image: url(../images/banner-bg.png);
+    /*background-image: url(../images/banner-bg.png);*/
+    background: rgb(206, 235, 237);
     height: auto;
     background-size: 100%;
     padding: 10px 0 25px 0;
-    background-repeat: no-repeat;
 }
 
 .logo {
@@ -242,6 +236,10 @@ button {
 }
 
 .navbar {
+    display: flex;
+    justify-content: space-between;
+    color: #272a2a;
+    /*    color: #15e4d0; hover*/
     /*padding: .5rem 70px;*/
 }
 
@@ -250,17 +248,17 @@ button {
 }
 
 
-.navbar-toggler {
-    float: right;
-}
+/*.navbar-toggler {*/
+/*    float: right;*/
+/*}*/
 
-.navbar ul {
-    float: right;
-}
+/*.navbar ul {*/
+/*    float: right;*/
+/*}*/
 
-.navbar-collapse {
-    float: right;
-}
+/*.navbar-collapse {*/
+/*    float: right;*/
+/*}*/
 
 .banner_section {
     width: 100%;
@@ -279,7 +277,7 @@ button {
     font-size: 60px;
     color: #15e4d0;
     font-weight: bold;
-    line-height: 60px;
+    line-height: 75px;
     padding-top: 120px;
 }
 
@@ -313,7 +311,7 @@ button {
 }
 
 .contact_bt {
-    width: 170px;
+    width: 200px;
     float: left;
     margin-left: 15px;
 }
@@ -380,12 +378,21 @@ button {
     font-weight: bold;
 }
 
+h3.health_taital {
+    width: 100%;
+    float: left;
+    font-size: 30px;
+    color: #252525;
+    font-weight: bold;
+}
 .health_text {
     width: 100%;
     float: left;
-    font-size: 16px;
+    font-size: 18px;
     color: #252525;
     margin: 0;
+    line-height: 1.8;
+    margin-top: 15px;
 }
 
 .health_section_2 {
@@ -431,10 +438,10 @@ button {
     display: none;
 }
 
-.main:hover::after {
-    background-color: rgba(27, 236, 222, 0.5);
-    display: block;
-}
+/*.main:hover::after {*/
+/*    background-color: rgba(27, 236, 222, 0.5);*/
+/*    display: block;*/
+/*}*/
 
 .image {
     opacity: 1;
@@ -590,14 +597,80 @@ button {
     width: 100%;
     float: left;
 }
+.icon_1 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-bottom: 20px;
+    line-height: 95px;
+}
+
+.daily_text {
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    display: block;
+    color: #fff;
+}
+
+.daily_text_1 {
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    display: block;
+    color: #fff;
+}
+.grid-wrapper {
+    display: block;
+    width: 100%;
+    position: relative;
+}
+.grid-parent {
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    width: 100%;
+}
+.grid-parent > div, .grid-parent > .grid-parent .box_main {
+    height: 150px;
+}
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 4; }
+.div3 { grid-area: 2 / 1 / 3 / 2; }
+.div4 { grid-area: 2 / 2 / 3 / 4; }
+.div5 { grid-area: 3 / 1 / 4 / 2; }
+.div6 { grid-area: 3 / 2 / 4 / 3; }
+.div7 { grid-area: 3 / 3 / 4 / 4; }
+
+
 
 .box_main {
     width: 100%;
     float: left;
-    background-color: #252525;
-    height: auto;
+    /*background-color: #252525;*/
+    /*background-color: rgba(27, 236, 222, 0.5);*/
+    background-color: #cfedf0;
+    /*border: 4px solid #4bc5b8;*/
+    height: 100%;
     border-radius: 15px;
-    padding: 40px;
+    padding: 20px;
+    position: relative;
+}
+
+.box_main h4 {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 21px;
+    display: block;
 }
 
 .box_main:hover {
@@ -608,36 +681,7 @@ button {
     background-color: #1becde;
 }
 
-.icon_1 {
-    width: 100%;
-    float: left;
-    text-align: center;
-    padding-bottom: 20px;
-    line-height: 95px;
-}
 
-.daily_text {
-    width: 40%;
-    margin: 0 auto;
-    text-align: center;
-    font-weight: bold;
-    font-size: 24px;
-    display: block;
-    color: #fff;
-    line-height: 30px;
-}
-
-.daily_text_1 {
-    width: 40%;
-    margin: 0 auto;
-    text-align: center;
-    font-weight: bold;
-    font-size: 24px;
-    display: block;
-    color: #fff;
-    line-height: 30px;
-    padding-bottom: 40px;
-}
 
 .getquote_bt {
     width: 180px;
@@ -663,9 +707,9 @@ button {
 .contact_section {
     width: 100%;
     float: left;
-    background-image: url(../images/contact-bg.png);
+    /*background-image: url(../images/contact-bg.png);*/
+    background: rgb(206, 235, 237);
     background-size: 100%;
-    background-repeat: no-repeat;
     padding-bottom: 150px;
 }
 
@@ -691,9 +735,14 @@ button {
 .diabetes_text {
     width: 70%;
     float: left;
-    font-size: 30px;
+    font-size: 27px;
     color: #040101;
     font-weight: 500;
+    margin-top: 12px;
+}
+
+.diabetes_text.not {
+    margin-top: 0;
 }
 
 .contact_box {
@@ -702,15 +751,30 @@ button {
     background-color: #f1fafb;
     height: auto;
     padding: 30px;
+    display: block;
+}
+
+.contact_box h3 {
+    text-align: center;
+    font-size: 27px;
+    color: #252525;
+}
+
+.contact_box.first {
+    margin-bottom: 30px;
 }
 
 .book_text {
     width: 100%;
     float: left;
-    font-size: 30px;
+    font-size: 28px;
     color: #252525;
     text-align: center;
     font-weight: 500;
+}
+
+.contact_box.first.book_text {
+    font-size: 25px;
 }
 
 .Email_text {
