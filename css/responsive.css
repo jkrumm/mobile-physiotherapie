@@ -17,14 +17,6 @@
         text-align: center;
     }
 
-    .cart-content-right {
-        padding-bottom: 5px;
-    }
-
-    .mg {
-        margin: 0 0;
-    }
-
     .menu-area-main {
         height: 256px;
         overflow-y: auto;
@@ -38,25 +30,8 @@
         padding: 0 15px;
     }
 
-    .menu-area-main .megamenu .women-cat {
-        padding: 0 15px;
-    }
-
-    .menu-area-main .megamenu .el-cat {
-        padding: 0 15px;
-    }
-
     .mean-container .mean-nav ul li a.mean-expand {
         height: 19px;
-    }
-
-    .category-box.women-box {
-        display: none;
-    }
-
-    .cart-box {
-        display: inline-block;
-        margin: 0 30px;
     }
 
     .wish-box {
@@ -66,10 +41,6 @@
     }
 
     .menu-add {
-        display: none;
-    }
-
-    .category-box {
         display: none;
     }
 
@@ -95,32 +66,18 @@
         padding: 15px 0;
     }
 
-    #collapseFilter.d-md-block {
-        padding: 30px 0;
-    }
 }
 
 
 /*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
 
 @media only screen and (min-width: 280px) and (max-width: 599px) {
-    .cart-content-right {
-        padding-bottom: 5px;
-    }
 
     .megamenu > .row [class*="col-"] {
         padding: 0;
     }
 
     .menu-area-main .megamenu .men-cat {
-        padding: 0 15px;
-    }
-
-    .menu-area-main .megamenu .women-cat {
-        padding: 0 15px;
-    }
-
-    .menu-area-main .megamenu .el-cat {
         padding: 0 15px;
     }
 
@@ -169,23 +126,6 @@
         height: 390px;
     }
 
-    .knowledge_section {
-        padding-top: 100px;
-        padding-bottom: 175px;
-    }
-
-    .Useful_text {
-        width: 65%;
-    }
-
-    .paddlin_left_0 {
-        padding-left: 10px;
-    }
-
-    .map_icon {
-        font-size: 15px;
-    }
-
     #my_slider a.carousel-control-next {
         left: 335px;
         top: 72%;
@@ -196,20 +136,8 @@
         top: 84%;
     }
 
-    .client_right {
-        padding-top: 10px;
-    }
-
     .contact_section {
         background-size: cover;
-    }
-
-    .daily_text_1 {
-        width: 70%;
-    }
-
-    .daily_text {
-        width: 40%;
     }
 
     .logo {
@@ -255,20 +183,12 @@
         width: 135px;
     }
 
-    .more_bt {
-        width: 135px;
-    }
-
     .more_bt a {
         padding: 7px 0;
     }
 
     .contact_bt a {
         padding: 7px 0;
-    }
-
-    .image_1 {
-        padding-top: 30px;
     }
 
     .health_taital {
@@ -293,27 +213,6 @@
 
     .middle {
         left: 50%;
-    }
-
-    .getquote_bt_1 {
-        margin-top: 30px;
-    }
-
-    .knowledge_section {
-        background-size: cover;
-        padding: 100px 0;
-    }
-
-    .left_main {
-        width: 100%;
-    }
-
-    .knowledge_taital {
-        font-size: 36px;
-    }
-
-    .play_icon {
-        display: none;
     }
 
     .box_main {
@@ -350,22 +249,6 @@
         margin-top: 30px;
     }
 
-    .client_taital {
-        font-size: 30px;
-    }
-
-    .client_left {
-        width: 100%;
-    }
-
-    .client_right {
-        width: 100%;
-    }
-
-    .distracted_text {
-        font-size: 36px;
-    }
-
     #my_slider a.carousel-control-next {
         display: none;
     }
@@ -374,17 +257,6 @@
         display: none;
     }
 
-    .Useful_text {
-        width: 60%;
-    }
-
-    .daily_text_1 {
-        width: 50%;
-    }
-
-    .daily_text {
-        width: 40%;
-    }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -414,10 +286,6 @@
         width: 50%;
     }
 
-    .costum_menu {
-        display: none;
-    }
-
     /*.navbar-expand-lg .navbar-nav .nav-link {*/
     /*    display: block;*/
     /*    color: #272a2a;*/
@@ -446,20 +314,12 @@
         width: 135px;
     }
 
-    .more_bt {
-        width: 135px;
-    }
-
     .more_bt a {
         padding: 7px 0;
     }
 
     .contact_bt a {
         padding: 7px 0;
-    }
-
-    .image_1 {
-        padding-top: 30px;
     }
 
     .health_taital {
@@ -484,27 +344,6 @@
 
     .middle {
         left: 50%;
-    }
-
-    .getquote_bt_1 {
-        margin-top: 30px;
-    }
-
-    .knowledge_section {
-        background-size: cover;
-        padding: 90px 0;
-    }
-
-    .left_main {
-        width: 100%;
-    }
-
-    .knowledge_taital {
-        font-size: 36px;
-    }
-
-    .play_icon {
-        display: none;
     }
 
     .box_main {
@@ -541,22 +380,6 @@
         margin-top: 30px;
     }
 
-    .client_taital {
-        font-size: 30px;
-    }
-
-    .client_left {
-        width: 100%;
-    }
-
-    .client_right {
-        width: 100%;
-    }
-
-    .distracted_text {
-        font-size: 36px;
-    }
-
     #my_slider a.carousel-control-next {
         display: none;
     }
@@ -565,17 +388,6 @@
         display: none;
     }
 
-    .Useful_text {
-        width: 60%;
-    }
-
-    .daily_text_1 {
-        width: 100%;
-    }
-
-    .daily_text {
-        width: 70%;
-    }
 }
 
 @media (max-width: 575px) {
@@ -605,10 +417,6 @@
         width: 50%;
     }
 
-    .costum_menu {
-        display: none;
-    }
-
     /*.navbar-expand-lg .navbar-nav .nav-link {*/
     /*    display: block;*/
     /*    color: #272a2a;*/
@@ -637,20 +445,12 @@
         width: 135px;
     }
 
-    .more_bt {
-        width: 135px;
-    }
-
     .more_bt a {
         padding: 7px 0;
     }
 
     .contact_bt a {
         padding: 7px 0;
-    }
-
-    .image_1 {
-        padding-top: 30px;
     }
 
     .health_taital {
@@ -677,37 +477,12 @@
         left: 50%;
     }
 
-    .getquote_bt_1 {
-        margin-top: 30px;
-    }
-
-    .knowledge_section {
-        background-size: cover;
-        padding: 90px 0;
-    }
-
-    .left_main {
-        width: 100%;
-    }
-
-    .knowledge_taital {
-        font-size: 27px;
-    }
-
-    .play_icon {
-        display: none;
-    }
-
     .box_main {
         margin-bottom: 30px;
     }
 
     .getquote_bt a {
         margin-top: 0;
-    }
-
-    .daily_text_1 {
-        width: 60%;
     }
 
     .contact_section {
@@ -734,22 +509,6 @@
 
     .contact_box {
         margin-top: 30px;
-    }
-
-    .client_taital {
-        font-size: 30px;
-    }
-
-    .client_left {
-        width: 100%;
-    }
-
-    .client_right {
-        width: 100%;
-    }
-
-    .distracted_text {
-        font-size: 36px;
     }
 
     #my_slider a.carousel-control-next {
