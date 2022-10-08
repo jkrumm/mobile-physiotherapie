@@ -663,11 +663,18 @@ h3.health_taital {
     font-weight: 500;
     margin-top: 12px;
 }
-
-.diabetes_text.not {
-    margin-top: 0;
+@media (min-width: 767px) {
+    .diabetes_text.not {
+        position: relative;
+        top: -15px;
+    }
 }
-
+@media (min-width: 991px) {
+    .diabetes_text.not {
+        position: relative;
+        top: -25px;
+    }
+}
 .contact_box {
     width: 100%;
     float: left;
@@ -690,25 +697,25 @@ h3.health_taital {
 .book_text {
     width: 100%;
     float: left;
-    font-size: 28px;
+    font-size: 25px;
     color: #252525;
     text-align: center;
     font-weight: 500;
 }
 
 .contact_box.first.book_text {
-    font-size: 25px;
+    font-size: 23px;
 }
 
 @media (max-width: 991px) {
     .contact_box h3 {
         text-align: center;
-        font-size: 23px;
+        font-size: 21px;
         color: #252525;
     }
 
-    .contact_box.first.book_text {
-        font-size: 20px;
+    .contact_box.book_text {
+        font-size: 18px;
     }
 }
 
