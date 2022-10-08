@@ -217,7 +217,7 @@ button {
 }
 
 .logo img {
-    filter: brightness(140%);
+    filter: brightness(130%);
 }
 
 .bg-light {
@@ -274,7 +274,10 @@ button {
 .images_1 img {
     position: relative;
     top: 30px;
-    filter: brightness(130%);
+    filter: brightness(125%);
+    box-shadow: rgba(100, 100, 111, 0.3) 0 7px 29px 0;
+    margin-left: auto;
+    display: block;
 }
 
 .banner_taital {
