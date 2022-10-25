@@ -17,7 +17,6 @@
 
 * {
     box-sizing: border-box !important;
-    transition: ease all 0.5s;
 }
 
 html {
@@ -31,6 +30,7 @@ body {
     /*line-height: 1.80857;*/
     font-weight: normal;
     overflow-x: hidden;
+    margin-top: -20px;
 }
 
 a {
@@ -239,13 +239,16 @@ button {
     display: flex;
     justify-content: space-between;
     color: #272a2a;
+    margin-top: 20px;
     /*    color: #15e4d0; hover*/
     /*padding: .5rem 70px;*/
 }
 
-.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+/*.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
     color: #15e4d0;
-}
+    font-weight: bold;
+    font-size: 20px;
+}*/
 
 
 /*.navbar-toggler {*/
@@ -287,7 +290,7 @@ button {
     color: #15e4d0;
     font-weight: bold;
     line-height: 75px;
-    padding-top: 120px;
+    padding-top: 100px;
 }
 
 .btn_main {
@@ -817,6 +820,10 @@ h3.health_taital {
 
 .copyright_text a {
     color: #ffffff;
+}
+
+.copyright_text a:last-of-type {
+    text-decoration: underline !important;
 }
 
 .copyright_text a:hover {
